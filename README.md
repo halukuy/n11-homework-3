@@ -1,5 +1,5 @@
 
-Tabii ki, işte bir örnek README dosyası:
+
 
 markdown
 Copy code
