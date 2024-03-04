@@ -1,8 +1,4 @@
 
-
-
-markdown
-Copy code
 # Spring Boot Weather API Project
 
 Bu proje, Spring Boot kullanarak basit bir hava durumu servisi sağlamak için oluşturulmuştur.
