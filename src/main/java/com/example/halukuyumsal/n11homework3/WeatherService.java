@@ -23,11 +23,9 @@ public class WeatherService {
 
         try {
             ResponseEntity<String> response = new RestTemplate().getForEntity(url, String.class);
-
-
             return response;
         } catch (Exception e) {
-            throw new WeatherServiceException("Error while fetching weather data", e);
+            throw new WeatherServiceException("Weather service error", e);
         }
     }
 }
