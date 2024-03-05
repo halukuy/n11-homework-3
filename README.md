@@ -23,7 +23,7 @@ Proje, Spring Boot ile geliştirildiği için aşağıdaki adımları izleyerek 
 2. Projeyi derleyin: `mvn clean install`
 3. Uygulamayı başlatın: `mvn spring-boot:run`
 
-Uygulama başarıyla başlatıldığında, tarayıcınızda [http://localhost:8080/getWeather?country=Turkey&city=Istanbul](http://localhost:8080/getWeather?country=Turkey&city=Istanbul) adresine giderek hava durumu bilgisini görebilirsiniz.
+Uygulama başarıyla başlatıldığında, tarayıcınızda [http://localhost:8080/getWeather?country=Turkey&city=Istanbul](http://localhost:8080/api/weather/getWeather?country=Turkey&city=Istanbul) adresine giderek hava durumu bilgisini görebilirsiniz.
 
 ## Yapılandırma
 
